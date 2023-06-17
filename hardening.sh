@@ -5,4 +5,3 @@ lvxtend -L +7G /dev/mapper/rootvg-varlv
 xfs_growfs /dev/mapper/rootvg-varlv
 
 yum install nginx -y
-yum install stress -y
